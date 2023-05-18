@@ -13,7 +13,6 @@ int no_vertices;
 void print_graph(int adj[no_vertices][no_vertices]);
 void bfs(int adj[][no_vertices], int start);
 void dfs(int adj[][no_vertices], int visited[], int start);
-// void shortestPath(int adj[][MAX_VERTICES], int numVertices, int start, int end);
 void floydWarshall(int adj[][no_vertices], int numVertices, int source, int destination);
 
 
